@@ -1,7 +1,17 @@
+/*General*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: content-box;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+#divider {
+    margin: 200px 0;
 }
 
 .container {
@@ -17,7 +27,10 @@
 
 [class*='col-'] {
     float: left;
+    height: 48.75px;
 }
+
+/*Col General*/
 
 .col-1 {
     width: calc((100% / 12));
@@ -62,6 +75,20 @@
 .col-11 {
     width: calc((100% / 12) * 11);
 }
+
+.col-12 {
+    width: 100%;
+}
+
+.size-col{
+    float: left;
+    font-size: 60px;
+    margin: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*Col Offset*/
 
 .col-offset-0 {
     margin-left: 0;
@@ -109,4 +136,34 @@
 
 .col-offset-11 {
     margin-left: calc((100% / 12) * 11);
+}
+
+/*Colors*/
+
+.black {
+    background-color: black;
+}
+
+.dark-green {
+    background-color: #1EB145;
+}
+
+.lime {
+    background-color: #A5E814;
+}
+
+.light-blue {
+    background-color: #98D8E9;
+}
+
+.pink {
+    background-color: #F9A8AF;
+}
+
+.light-grey {
+    background-color: #DCDCDC;
+}
+
+.grey {
+    background-color: #B3B4B3;
 }
